@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="About The Unseen Egypt">
+    <meta name="keywords" content="About Us,Contact Us">
+    <title>The Unseen Egypt | About Us</title>
+    <link rel="icon" href="assets/img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body id="body-img">
+    <header>
+        <div id="logo-bg">
+            <a href="index.html">
+                <img id="logo" src="assets/img/logo.gif" alt="logo">
+            </a>
+        </div>
+
+        <!-- Navigation Bar-->
+        <nav class="navbar">
+            <label for="toggle">&#9776;</label>
+            <input type="checkbox" id="toggle">
+            <div class="menu">
+                <a class="nav-item" href="index.html">Home</a>
+                <a class="nav-item" href="places.html">Places</a>
+                <a class="nav-item" href="hotels.html">Hotels</a>
+                <a class="nav-item" href="transportation.html">Transportation</a>
+                <a class="nav-item" href="restaurants.html">Restaurants</a>
+                <a class="active nav-item" href="aboutus.html">About Us</a>
+            </div>
+            <div id="search">
+                <button type="submit" class="search-button"><i class="fa fa-search"></i></button>
+                <input type="text" class="search-field" placeholder="Search...">
+            </div>
+        </nav>
+    </header>
+
+    <div id="about-wrapper">
+        <div id="main-container">
+            <div id="about-container">
+                <h1>About Us</h1>
+                <p>We offer recommendations and information about the beauty of Egypt, putting the spotlight on the
+                    places
+                    that are
+                    not getting the deserved attention. We also offer recommendations for hotels, restaurants, and a
+                    simple
+                    guide on
+                    what to choose when moving around in Egypt.</p>
+
+                <h2>We offer amazing recommendations</h2>
+                <p>
+                    Based on our personal experience and the positive reviews on different major traveling websites, we
+                    help you decide on your next trip to Egypt's most remarkable places.
+                </p>
+                <h2>Our Mission</h2>
+                <p>
+                    At The Unseen Egypt, our mission is to inspire wonder and curiosity about the incredible world we
+                    all
+                    share.
+                </p>
+                <div><img src="assets/img/souvenirphoto.jpg" alt="Souvenir photo" width="639" height="350"></div>
+            </div>
+
+            <div id="contact-container">
+                <h1>Contact Us</h1>
+                <h2>Send Us an Email: </h2>
+                <h2>For inquires:</h2>
+                <a href="mailto:inquiry@theunseenegypt.org" target="_top">inquiry@theunseenegypt.org</a>
+                <h2>For feedback:</h2>
+                <a href="mailto:support@theunseenegypt.org" target="_top">support@theunseenegypt.org</a>
+                <h2>Leave Us a Message</h2>
+                <form name="contact" method="POST" action="mailto:inquiry@theunseenegypt.org">
+                    <div class="contact-field">
+                        <label id="FName">First Name: </label>
+                        <input type="text" name="FName" required>
+                    </div>
+
+                    <div class="contact-field">
+                        <label id="MName">Middle Name: </label>
+                        <input type="text" name="MName" required>
+                    </div>
+
+                    <div class="contact-field">
+                        <label id="LName">Last Name: </label>
+                        <input type="text" name="LName" required>
+                    </div>
+
+                    <div class="contact-field">
+                        <label id="contactEmail">Email: </label>
+                        <input type="email" name="contactEmail" required>
+                    </div>
+
+                    <div class="contact-field">
+                        <label id="Phone">Phone: </label>
+                        <input type="tel" name="Phone">
+                    </div>
+
+                    <div class="contact-field">
+                        <label id="messagelabel">Message: </label>
+                        <textarea id="message-box" name="messagelabel" rows="7" cols="60" required></textarea>
+                    </div>
+                    <input type="submit" name="Submit" id="Submit" value="Submit" onclick="informSubmission()">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <!-- Newsletter -->
+        <div id="newsletter">
+            <h2>Subscribe to our Newsletter</h2>
+            <form name="subscription">
+                <input type="email" name="subscribeEmail" id="subscribeEmail" placeholder="Enter Email...">
+                <button type="submit" onclick="informSubscription()">Subscribe</button>
+            </form>
+        </div>
+
+        <hr id="hr-footer">
+
+        <!-- Site Map -->
+        <div id="sitemap">
+            <h2>Site Map</h2>
+            <div id="map-item-container">
+                <a class="map-item" href="places.html">Natural Scenery</a>
+                <a class="map-item" href="adventure.html">Adventure</a>
+                <a class="map-item" href="therapeutic.html">Therapeutic</a>
+                <a class="map-item" href="religious.html">Religious</a>
+                <a class="map-item" href="cultural.html">Cultural</a>
+                <a class="map-item" href="hotels.html">Hotels</a>
+                <a class="map-item" href="transportation.html">Transportation</a>
+                <a class="map-item" href="restaurants.html">Restaurants</a>
+                <a class="map-item" href="aboutus.html">About Us</a>
+            </div>
+        </div>
+        <!-- Follow Us -->
+        <div id="social-media">
+            <p>The Unseen Egypt &copy; 2019</p>
+            <div class="box">
+                <a href="https://www.facebook.com"><img class="icon" src="assets/img/facebook.jpg"
+                        alt="Facebook icon"></a>
+            </div>
+            <div class="box">
+                <a href="https://twitter.com/"><img class="icon" src="assets/img/Twitter.png" alt="Twitter icon"></a>
+            </div>
+            <div class="box">
+                <a href="https://www.instagram.com/"><img class="icon" src="assets/img/instagram.png"
+                        alt="Instagram icon"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

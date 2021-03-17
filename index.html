@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="We offer recommendations and information about the beauty of Egypt, putting the spotlight on the places that are
+  not getting the deserved attention.">
+  <meta name="keywords" content="The Unseen Egypt,Home">
+  <title>The Unseen Egypt | Home</title>
+  <link rel="icon" href="assets/img/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body id="body-img">
+  <header>
+    <div id="logo-bg">
+      <a href="index.html">
+        <img id="logo" src="assets/img/logo.gif" alt="logo">
+      </a>
+    </div>
+
+    <!-- Navigation Bar-->
+    <nav class="navbar">
+      <label for="toggle">&#9776;</label>
+      <input type="checkbox" id="toggle">
+      <div class="menu">
+        <a class="active nav-item" href="index.html">Home</a>
+        <a class="nav-item" href="places.html">Places</a>
+        <a class="nav-item" href="hotels.html">Hotels</a>
+        <a class="nav-item" href="transportation.html">Transportation</a>
+        <a class="nav-item" href="restaurants.html">Restaurants</a>
+        <a class="nav-item" href="aboutus.html">About Us</a>
+      </div>
+      <div id="search">
+        <button type="submit" class="search-button">
+          <i class="fa fa-search"></i>
+        </button>
+        <input type="text" class="search-field" placeholder="Search...">
+      </div>
+    </nav>
+  </header>
+
+  <!-- Slideshow -->
+  <div class="slideshow-container">
+
+    <div class="slideshow">
+      <img class="slideshow-img" src="assets/img/slideimg1.jpg" height="600"
+        alt="Image showing Giza Pyramids and people riding camels">
+      <div class="slide-text">Enjoy The Majestic Beauty Of Egypt</div>
+    </div>
+
+    <div class="slideshow">
+      <img class="slideshow-img" src="assets/img/slideimg2.jpg" height="600"
+        alt="Image showing a beach with crystal clear water">
+      <div class="slide-text">Turn Moments Into Memories</div>
+    </div>
+
+    <div class="slideshow">
+      <img class="slideshow-img" src="assets/img/slideimg3.jpg" height="600" alt="Image showing nubian island in Aswan">
+      <div class="slide-text">Indulge In Egypt's Diverse Cultures</div>
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="slide-prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="slide-next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+
+  <!-- Introduction-->
+  <div class="landing">
+    <h1>The Unseen Egypt</h1>
+    <p>We offer recommendations and information about the beauty of Egypt, putting the spotlight on the places that are
+      not getting the deserved attention. We also offer recommendations for hotels, restaurants, and a simple guide on
+      what to choose when moving around in Egypt.</p>
+    <div id="home-images">
+      <div><img src="assets/img/home1.jpg"
+          alt="An image showcasing a group riding horses through the desert nearby the pyramids" width="600"
+          height="314"></div>
+      <div><img src="assets/img/home2.jpg" alt="An image showcasing a temple" width="600" height="314"></div>
+      <div><img src="assets/img/home3.jpg" alt="An image showcasing a woman taking a photo of Egypt's beauty"
+          width="600" height="314"></div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <!-- Newsletter -->
+    <div id="newsletter">
+      <h2>Subscribe to our Newsletter</h2>
+      <form name="subscription">
+        <input type="email" name="subscribeEmail" id="subscribeEmail" placeholder="Enter Email...">
+        <button type="submit" onclick="informSubscription()">Subscribe</button>
+      </form>
+    </div>
+
+    <hr id="hr-footer">
+
+    <!-- Site Map -->
+    <div id="sitemap">
+      <h2>Site Map</h2>
+      <div id="map-item-container">
+        <a class="map-item" href="places.html">Natural Scenery</a>
+        <a class="map-item" href="adventure.html">Adventure</a>
+        <a class="map-item" href="therapeutic.html">Therapeutic</a>
+        <a class="map-item" href="religious.html">Religious</a>
+        <a class="map-item" href="cultural.html">Cultural</a>
+        <a class="map-item" href="hotels.html">Hotels</a>
+        <a class="map-item" href="transportation.html">Transportation</a>
+        <a class="map-item" href="restaurants.html">Restaurants</a>
+        <a class="map-item" href="aboutus.html">About Us</a>
+      </div>
+    </div>
+    <!-- Follow Us -->
+    <div id="social-media">
+      <p>The Unseen Egypt &copy; 2019</p>
+      <div class="box">
+        <a href="https://www.facebook.com"><img class="icon" src="assets/img/facebook.jpg" alt="Facebook icon"></a>
+      </div>
+      <div class="box">
+        <a href="https://twitter.com/"><img class="icon" src="assets/img/Twitter.png" alt="Twitter icon"></a>
+      </div>
+      <div class="box">
+        <a href="https://www.instagram.com/"><img class="icon" src="assets/img/instagram.png" alt="Instagram icon"></a>
+      </div>
+    </div>
+  </footer>
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
