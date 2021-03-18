@@ -1,6 +1,7 @@
 ___
 # The Unseen Egypt
 A simple website created in plain HTML, CSS and JS as a university project in BUE ICS Prep. Year.
+Visit website at: [The Unseen Egypt](https://team-amkn.github.io/theunseenegypt)
 ___
 ## Brief Description
 We offer recommendations and information about the beauty of Egypt, putting the spotlight on the places that are not getting the deserved attention. We also offer recommendations for hotels, restaurants, and a simple guide on what to choose when moving around in Egypt.
